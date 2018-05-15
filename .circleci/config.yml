@@ -24,8 +24,8 @@ jobs:
       - checkout
 
       # Download and cache dependencies
-      - run: wget -N /tmp/chromedriver.zip http://chromedriver.storage.googleapis.com/2.9/chromedriver_linux64.zip -P /usr/local/bin/
-      - run: chmod 777 /usr/local/bin/chromedriver
+      - run: sudo wget -N /tmp/chromedriver.zip http://chromedriver.storage.googleapis.com/2.9/chromedriver_linux64.zip -P /usr/local/bin/
+      - run: sudo chmod 777 /usr/local/bin/chromedriver
       - restore_cache:
           keys:
           - v1-dependencies-{{ checksum "pom.xml" }}
