@@ -150,7 +150,7 @@ public class Initialize {
 					exePath = "/usr/local/bin/chromedriver";
 				//exePath = "/usr/local/bin/chromedriver";
 				//}		
-				System.setProperty("webdriver.chrome.driver", exePath);
+				//System.setProperty("webdriver.chrome.driver", exePath);
 				ChromeOptions options = new ChromeOptions();
 				Map<String, Object> prefs = new HashMap<String, Object>();
 				prefs.put("credentials_enable_service", false);
