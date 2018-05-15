@@ -1,0 +1,15 @@
+<suite name="PZI POS Test Automation Demo" verbose="10" preserve-order="true">
+ <parameter name="platform" value="Desktop" />
+ <parameter name="browser" value="Chrome" />
+ <tests>
+ 
+   	<test name="PZDemoTestAutomationFlow">
+ 		<parameter name="description" value="VALIDATES THE BASIC FUNCTIONALITIES OF THE SAMPLE POS APPLICATION" />
+		<classes>
+			<class name="testcases.PZDemoTestAutomationFlow"/>
+		</classes>
+  	</test>
+  	
+  	
+ </tests>
+</suite>

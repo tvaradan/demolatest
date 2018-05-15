@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><globalData>
+	<creditCard>
+		<card param="VISA">
+			<cardName>VISA</cardName>
+			<cardNum>4485293249409613</cardNum>
+			<cardExp>0921</cardExp>
+			<cardCVV>444</cardCVV>
+			<cardZip>00000</cardZip>
+		</card>
+		<card param="MASTER">
+			<cardName>MASTER</cardName>
+			<cardNum>5213324501984682</cardNum>
+			<cardExp>0621</cardExp>
+			<cardCVV>444</cardCVV>
+			<cardZip>00000</cardZip>
+		</card>
+		<card param="AMEX">
+			<cardName>AMEX</cardName>
+			<cardNum>349279548935865</cardNum>
+			<cardExp>0621</cardExp>
+			<cardCVV>0123</cardCVV>
+			<cardZip>00000</cardZip>
+		</card>
+		<card param="DISCOVER">
+			<cardName>DISCOVER</cardName>
+			<cardNum>6011237416660381</cardNum>
+			<cardExp>0621</cardExp>
+			<cardCVV>444</cardCVV>
+			<cardZip>00000</cardZip>
+		</card>
+	</creditCard>
+	<storeSearch>
+		<store param="91367">
+			<address>6303 Platt Ave</address>
+			<city>Woodland Hills</city>
+			<state>CA</state>
+			<zipCode>91367</zipCode>
+		</store>
+		<store param="85364">
+			<address>2 Selby St</address>
+			<city>Yuma</city>
+			<state>AZ</state>
+			<zipCode>85365</zipCode>
+		</store>
+		<store param="92691">
+			<address>26631 Trabuco Road</address>
+			<city>Mission Viejo</city>
+			<state>CA</state>
+			<zipCode>92691</zipCode>
+		</store>
+		<store param="yuma">
+			<address>1 Selby St</address>
+			<city>Yuma</city>
+			<state>AZ</state>
+			<zipCode>85365</zipCode>
+		</store>
+		<store param="92657">
+			<address>51 Crystal Cove</address>
+			<city>Newport Coast</city>
+			<state>CA</state>
+			<zipCode>92657</zipCode>
+		</store>
+	</storeSearch>
+	<createAccount>
+		<email>subho.automation2007@mail.com</email>
+	</createAccount>
+	<foodItems>
+		<item>Soft Taco</item>
+		<item>Bean Burrito</item>
+		<item>Crunchy Taco</item>
+		<!--item>Black Bean Burrito</item-->
+		<!--item>Breakfast Soft Taco</item>
+		<item>Grilled Breakfast Burrito</item>
+		<item>Premium Hot Coffee</item>
+		<item>Iced Regular Coffee</item-->
+	</foodItems>
+</globalData>

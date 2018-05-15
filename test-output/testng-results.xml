@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PZI POS Test Automation Demo" duration-ms="11168" started-at="2018-05-12T15:51:03Z" finished-at="2018-05-12T15:51:15Z">
+    <groups>
+    </groups>
+    <test name="PZDemoTestAutomationFlow" duration-ms="11168" started-at="2018-05-12T15:51:03Z" finished-at="2018-05-12T15:51:15Z">
+      <class name="testcases.PZDemoTestAutomationFlow">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.PZDemoTestAutomationFlow@9494d8]" name="setup" is-config="true" duration-ms="40" started-at="2018-05-12T15:51:03Z" finished-at="2018-05-12T15:51:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="intiTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.PZDemoTestAutomationFlow@9494d8]" name="intiTest" is-config="true" duration-ms="6146" started-at="2018-05-12T15:51:03Z" finished-at="2018-05-12T15:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Desktop]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[VALIDATES THE BASIC FUNCTIONALITIES OF THE SAMPLE POS APPLICATION]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiTest -->
+        <test-method status="PASS" signature="dbDataProvider(org.testng.ITestContext)[pri:0, instance:testcases.PZDemoTestAutomationFlow@9494d8]" name="dbDataProvider" is-config="true" duration-ms="60" started-at="2018-05-12T15:51:10Z" finished-at="2018-05-12T15:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@11eb84]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbDataProvider -->
+        <test-method status="PASS" signature="runTest(java.util.HashMap)[pri:0, instance:testcases.PZDemoTestAutomationFlow@9494d8]" name="runTest" duration-ms="926" started-at="2018-05-12T15:51:10Z" data-provider="dbDataProvider" finished-at="2018-05-12T15:51:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Item=, FoodType=, PickupTime=, FirstName=, EmailAdress=, ItemQty=, LastName=, PickupMethod=, Password=, Location=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.PZDemoTestAutomationFlow@9494d8]" name="getResult" is-config="true" duration-ms="470" started-at="2018-05-12T15:51:11Z" finished-at="2018-05-12T15:51:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runTest status=SUCCESS method=PZDemoTestAutomationFlow.runTest(java.util.HashMap)[pri:0, instance:testcases.PZDemoTestAutomationFlow@9494d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.PZDemoTestAutomationFlow@9494d8]" name="tearDown" is-config="true" duration-ms="3536" started-at="2018-05-12T15:51:11Z" finished-at="2018-05-12T15:51:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:testcases.PZDemoTestAutomationFlow@9494d8]" name="killDriver" is-config="true" duration-ms="0" started-at="2018-05-12T15:51:15Z" finished-at="2018-05-12T15:51:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+      </class> <!-- testcases.PZDemoTestAutomationFlow -->
+    </test> <!-- PZDemoTestAutomationFlow -->
+  </suite> <!-- PZI POS Test Automation Demo -->
+</testng-results>

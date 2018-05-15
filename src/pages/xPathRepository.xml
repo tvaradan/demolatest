@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<xPathNode>
+   <object name="pos_header">
+      <desktop>//span[contains(.,'DEMO POS')]</desktop>
+      <mobile>//h2[contains(.,'Ta.co is undergoing maintenance')]</mobile>
+   </object>
+   <object name="pos_details">
+      <desktop>//span[contains(.,'An Example of Online Point of Sale')]</desktop>
+      <mobile>//h2[contains(.,'Ta.co is undergoing maintenance')]</mobile>
+   </object>
+   <object name="pos_greetings">
+      <desktop>//div[contains(.,'Dear Employees, Help the customers to build their own PIZZA')]</desktop>
+      <mobile>//h2[contains(.,'Ta.co is undergoing maintenance')]</mobile>
+   </object>
+   
+   <!-- Buttons From Crust -->
+   <object name="but_thin_crust">
+      <desktop>//button[contains(.,'Thin Crust')]</desktop>
+      <mobile>//h2[contains(.,'Ta.co is undergoing maintenance')]</mobile>
+   </object>
+   <object name="but_deep_dish">
+      <desktop>//button[contains(.,'Deep Dish')]</desktop>
+      <mobile>//h2[contains(.,'Ta.co is undergoing maintenance')]</mobile>
+   </object>
+   <object name="but_naked_chicken">
+      <desktop>//button[contains(.,'Naked Chicken')]</desktop>
+      <mobile>//h2[contains(.,'Ta.co is undergoing maintenance')]</mobile>
+   </object>
+   <object name="but_carribb_jerk">
+      <desktop>//button[contains(.,'Carribbean Jerk')]</desktop>
+      <mobile>//h2[contains(.,'Ta.co is undergoing maintenance')]</mobile>
+   </object>
+   <object name="but_cheesy_thin">
+      <desktop>//button[contains(.,'Cheesy Thin')]</desktop>
+      <mobile>//h2[contains(.,'Ta.co is undergoing maintenance')]</mobile>
+   </object>
+   
+   <!-- Buttons From Beverages -->
+   <object name="but_cold_coffee">
+      <desktop>//button[contains(.,'Cold Coffee')]</desktop>
+      <mobile>//h2[contains(.,'Ta.co is undergoing maintenance')]</mobile>
+   </object>
+   <object name="but_hot_coff">
+      <desktop>//button[contains(.,'Hot Coffee')]</desktop>
+      <mobile>//h2[contains(.,'Ta.co is undergoing maintenance')]</mobile>
+   </object>
+   <object name="but_coke">
+      <desktop>//button[contains(.,'Coke')]</desktop>
+      <mobile>//h2[contains(.,'Ta.co is undergoing maintenance')]</mobile>
+   </object>
+   <object name="but_diet_coke">
+      <desktop>//button[contains(.,'Diet Coke')]</desktop>
+      <mobile>//h2[contains(.,'Ta.co is undergoing maintenance')]</mobile>
+   </object>
+   <object name="but_pepsi">
+      <desktop>//button[contains(.,'Pepsi')]</desktop>
+      <mobile>//h2[contains(.,'Ta.co is undergoing maintenance')]</mobile>
+   </object>
+   
+   <!--  Added Buttons on the check -->
+   <object name="add_thin_crust">
+      <desktop>//li[contains(.,'Thin Crust')]</desktop>
+      <mobile>//h2[contains(.,'Ta.co is undergoing maintenance')]</mobile>
+   </object>
+   <object name="add_thin_crust">
+      <desktop>//li[contains(.,'Thin Crust')]</desktop>
+      <mobile>//h2[contains(.,'Ta.co is undergoing maintenance')]</mobile>
+   </object>
+   <object name="but_CheckOut">
+      <desktop>//span[contains(.,'Checkout')]</desktop>
+      <mobile>//h2[contains(.,'Ta.co is undergoing maintenance')]</mobile>
+   </object>
+   <object name="but_Clear">
+      <desktop>//span[contains(.,'Checkout')]</desktop>
+      <mobile>//h2[contains(.,'Ta.co is undergoing maintenance')]</mobile>
+   </object>
+</xPathNode>

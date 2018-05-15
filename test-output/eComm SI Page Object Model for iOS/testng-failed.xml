@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="10" name="Failed suite [eComm SI Page Object Model for iOS]">
+  <parameter name="browser" value="Safari"/>
+  <parameter name="platform" value="iOS"/>
+  <test name="ATC_SI_001(failed)">
+    <parameter name="description" value="VALIDATE PICKUP LOCATION SECTION WHEN LOCATION SELECTED WITHIN CHECKOUT"/>
+    <classes>
+      <class name="testcases.ATC_SI_001">
+        <methods>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="runTest" invocation-numbers="0"/>
+          <include name="dbDataProvider"/>
+          <include name="setup"/>
+          <include name="intiTest"/>
+          <include name="killDriver"/>
+        </methods>
+      </class> <!-- testcases.ATC_SI_001 -->
+    </classes>
+  </test> <!-- ATC_SI_001(failed) -->
+</suite> <!-- Failed suite [eComm SI Page Object Model for iOS] -->

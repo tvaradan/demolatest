@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="10" name="Failed suite [eComm SI Page Object Model for Desktop]">
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="platform" value="Desktop"/>
+  <test name="ATC_SI_005(failed)">
+    <parameter name="description" value="VERIFY STORE SEARCH FAVORITE STORE SELECTION REGISTERED USER"/>
+    <classes>
+      <class name="testcases.ATC_SI_005">
+        <methods>
+          <include name="intiTest"/>
+          <include name="getResult"/>
+          <include name="dbDataProvider"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="runTest" invocation-numbers="0"/>
+          <include name="killDriver"/>
+        </methods>
+      </class> <!-- testcases.ATC_SI_005 -->
+    </classes>
+  </test> <!-- ATC_SI_005(failed) -->
+</suite> <!-- Failed suite [eComm SI Page Object Model for Desktop] -->

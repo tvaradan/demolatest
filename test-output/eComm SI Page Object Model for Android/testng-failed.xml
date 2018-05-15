@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="10" name="Failed suite [eComm SI Page Object Model for Android]">
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="platform" value="Android"/>
+  <test name="ATC_SI_087(failed)">
+    <parameter name="description" value="VALIDATE CANCELLING CANCEL ORDER BY CLICKING CTA"/>
+    <classes>
+      <class name="testcases.ATC_SI_087">
+        <methods>
+          <include name="tearDown"/>
+          <include name="dbDataProvider"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+          <include name="intiTest"/>
+          <include name="runTest" invocation-numbers="0"/>
+          <include name="killDriver"/>
+        </methods>
+      </class> <!-- testcases.ATC_SI_087 -->
+    </classes>
+  </test> <!-- ATC_SI_087(failed) -->
+  <test name="ATC_SI_088(failed)">
+    <parameter name="description" value="VALIDATE AN UNFAVORITED ITEM CAN BE FAVORITED FROM FAVORITES CLP"/>
+    <classes>
+      <class name="testcases.ATC_SI_088">
+        <methods>
+          <include name="runTest" invocation-numbers="0"/>
+          <include name="intiTest"/>
+          <include name="dbDataProvider"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+          <include name="killDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.ATC_SI_088 -->
+    </classes>
+  </test> <!-- ATC_SI_088(failed) -->
+  <test name="ATC_SI_100(failed)">
+    <parameter name="description" value="VERIFY SELECT PICKUP LOCATION DURING FAST FAVOURITE CHECKOUT"/>
+    <classes>
+      <class name="testcases.ATC_SI_100">
+        <methods>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="runTest" invocation-numbers="0"/>
+          <include name="dbDataProvider"/>
+          <include name="setup"/>
+          <include name="intiTest"/>
+          <include name="killDriver"/>
+        </methods>
+      </class> <!-- testcases.ATC_SI_100 -->
+    </classes>
+  </test> <!-- ATC_SI_100(failed) -->
+  <test name="ATC_SI_108(failed)">
+    <parameter name="description" value="VALIDATE A REGISTERED USER IS ABLE ADD MULTIPLE CARDS AND SELECT DURING CHECKOUT"/>
+    <classes>
+      <class name="testcases.ATC_SI_108">
+        <methods>
+          <include name="intiTest"/>
+          <include name="dbDataProvider"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="killDriver"/>
+          <include name="runTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.ATC_SI_108 -->
+    </classes>
+  </test> <!-- ATC_SI_108(failed) -->
+  <test name="ATC_SI_110(failed)">
+    <parameter name="description" value="VERIFY USER NOT PROMPT AGAIN TO FAVORITE A PRODUCT FROM CART"/>
+    <classes>
+      <class name="testcases.ATC_SI_110">
+        <methods>
+          <include name="runTest" invocation-numbers="0"/>
+          <include name="intiTest"/>
+          <include name="dbDataProvider"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+          <include name="killDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.ATC_SI_110 -->
+    </classes>
+  </test> <!-- ATC_SI_110(failed) -->
+  <test name="ATC_SI_112(failed)">
+    <parameter name="description" value="VERIFY PICKUP METHOD CHANGE FROM DRIVE THRU TO IN STORE"/>
+    <classes>
+      <class name="testcases.ATC_SI_112">
+        <methods>
+          <include name="runTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="dbDataProvider"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+          <include name="killDriver"/>
+          <include name="intiTest"/>
+        </methods>
+      </class> <!-- testcases.ATC_SI_112 -->
+    </classes>
+  </test> <!-- ATC_SI_112(failed) -->
+  <test name="ATC_SI_113(failed)">
+    <parameter name="description" value="VERIFY PICKUP METHOD CHANGE FROM IN STORE TO DRIVE THRU"/>
+    <classes>
+      <class name="testcases.ATC_SI_113">
+        <methods>
+          <include name="runTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="dbDataProvider"/>
+          <include name="setup"/>
+          <include name="killDriver"/>
+          <include name="getResult"/>
+          <include name="intiTest"/>
+        </methods>
+      </class> <!-- testcases.ATC_SI_113 -->
+    </classes>
+  </test> <!-- ATC_SI_113(failed) -->
+  <test name="ATC_SI_115(failed)">
+    <parameter name="description" value="VALIDATE MULTIPLE CTA SPLASH SCREEN AUTHENTICATED USER TRACK ORDER PAGE"/>
+    <classes>
+      <class name="testcases.ATC_SI_115">
+        <methods>
+          <include name="intiTest"/>
+          <include name="getResult"/>
+          <include name="dbDataProvider"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="runTest" invocation-numbers="0"/>
+          <include name="killDriver"/>
+        </methods>
+      </class> <!-- testcases.ATC_SI_115 -->
+    </classes>
+  </test> <!-- ATC_SI_115(failed) -->
+  <test name="ATC_SI_126(failed)">
+    <parameter name="description" value="VALIDATE CHANGE STORE LOCATION AND ADD NEW STORE ADDRESS"/>
+    <classes>
+      <class name="testcases.ATC_SI_126">
+        <methods>
+          <include name="intiTest"/>
+          <include name="getResult"/>
+          <include name="dbDataProvider"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="runTest" invocation-numbers="0"/>
+          <include name="killDriver"/>
+        </methods>
+      </class> <!-- testcases.ATC_SI_126 -->
+    </classes>
+  </test> <!-- ATC_SI_126(failed) -->
+  <test name="ATC_SI_143(failed)">
+    <parameter name="description" value="VALIDATE SIZE SELECTION IN DRINKS"/>
+    <classes>
+      <class name="testcases.ATC_SI_143">
+        <methods>
+          <include name="runTest" invocation-numbers="0"/>
+          <include name="intiTest"/>
+          <include name="dbDataProvider"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+          <include name="killDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.ATC_SI_143 -->
+    </classes>
+  </test> <!-- ATC_SI_143(failed) -->
+</suite> <!-- Failed suite [eComm SI Page Object Model for Android] -->

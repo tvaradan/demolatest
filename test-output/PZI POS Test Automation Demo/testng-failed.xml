@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="10" name="Failed suite [PZI POS Test Automation Demo]">
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="platform" value="Desktop"/>
+  <test thread-count="5" verbose="10" name="PZDemoTestAutomationFlow(failed)">
+    <parameter name="description" value="VALIDATES THE BASIC FUNCTIONALITIES OF THE SAMPLE POS APPLICATION"/>
+    <classes>
+      <class name="testcases.PZDemoTestAutomationFlow">
+        <methods>
+          <include name="tearDown"/>
+          <include name="runTest" invocation-numbers="0"/>
+          <include name="dbDataProvider"/>
+          <include name="intiTest"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+          <include name="killDriver"/>
+        </methods>
+      </class> <!-- testcases.PZDemoTestAutomationFlow -->
+    </classes>
+  </test> <!-- PZDemoTestAutomationFlow(failed) -->
+</suite> <!-- Failed suite [PZI POS Test Automation Demo] -->
