@@ -145,12 +145,12 @@ public class Initialize {
 				
 				//If ChromeDriver binary Not found in the Path then setting up relative Path
 				//if(!tmpFile.exists()) {
-					exePath = relativePath + "/src/resources/chromedriver.exe";
+					//exePath = relativePath + "/src/resources/chromedriver.exe";
 				//Changed the path
-					//exePath = "/usr/local/bin/chromedriver";
+					exePath = "/usr/local/bin/chromedriver";
 				//exePath = "/usr/local/bin/chromedriver";
 				//}		
-				System.setProperty("webdriver.chrome.driver", exePath);
+				//System.setProperty("webdriver.chrome.driver", exePath);
 				ChromeOptions options = new ChromeOptions();
 				Map<String, Object> prefs = new HashMap<String, Object>();
 				prefs.put("credentials_enable_service", false);
